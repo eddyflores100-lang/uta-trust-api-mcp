@@ -1,15 +1,14 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.eddyflores100-lang/uta-trust-api",
   "display_name": "UTA Trust API",
   "description": "Agent trust verification over x402: Ed25519 fail-closed ATC/1.0, 0.01 USDC/verify, Base mainnet.",
   "version": "2.3.2",
   "remotes": [
     {
-      "type": "url",
-      "url": "https://uta-trust-api.eddyflores100.workers.dev/mcp",
       "transport": {
-        "type": "streamable-http"
+        "type": "streamable-http",
+        "url": "https://uta-trust-api.eddyflores100.workers.dev/mcp"
       }
     }
   ]
