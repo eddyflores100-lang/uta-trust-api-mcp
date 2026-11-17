@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.eddyflores100-lang/uta-trust-api",
+  "display_name": "UTA Trust API",
+  "description": "Paid agent-trust verification over x402: Ed25519 fail-closed verification of Agent Trust Cards (ATC/1.0), 0.01 USDC per verify / 0.08 per batch on Base mainnet (EIP-3009). Free MCP tools/list; paid tools/call returns the x402 402 challenge.",
+  "version": "2.3.2",
+  "remotes": [
+    {
+      "type": "url",
+      "url": "https://uta-trust-api.eddyflores100.workers.dev/mcp",
+      "transport": {
+        "type": "streamable-http"
+      }
+    }
+  ]
+}
