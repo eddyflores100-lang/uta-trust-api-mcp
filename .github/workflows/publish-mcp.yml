@@ -12,7 +12,7 @@ jobs:
       id-token: write
       contents: read
     env:
-      MCP_PUBLISHER_VERSION: v1.8.1
+      MCP_PUBLISHER_VERSION: v1.8.9
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
