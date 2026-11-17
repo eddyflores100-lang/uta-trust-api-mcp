@@ -6,10 +6,8 @@
   "version": "2.3.2",
   "remotes": [
     {
-      "transport": {
-        "type": "streamable-http",
-        "url": "https://uta-trust-api.eddyflores100.workers.dev/mcp"
-      }
+      "type": "streamable-http",
+      "url": "https://uta-trust-api.eddyflores100.workers.dev/mcp"
     }
   ]
 }
